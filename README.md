@@ -17,7 +17,7 @@ More info on touch events here:
 
 In the Events a finger is lifted, the application dumps out the current stats on touch input gaps.
 
-##Compiling:
+Compiling:
 ==========
 Natively:
 	gcc -o touch_fast touch_events.c
@@ -25,11 +25,11 @@ Natively:
 cross:
 	arm-linux-gnueabihf-gcc -o touch_fast touch_events.c
 
-##Example Usage:
+Example Usage:
 ==============
 touch_fast /dev/input/event1
 
-##Example output:
+Example output:
 ===============
 	Reading from:
 	device file = /dev/input/event3
